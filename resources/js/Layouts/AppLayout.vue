@@ -289,13 +289,13 @@ const logout = () => {
                                                 <div>{{ team.name }}</div>
                                             </div>
                                         </ResponsiveNavLink>
-                                </form>
+                                    </form>
+                                </template>
                             </template>
-                        </template>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
 
         <!-- Page Heading -->
         <header v-if="$slots.header" class="bg-white dark:bg-gray-800 shadow">
